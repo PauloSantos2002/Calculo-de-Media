@@ -1,0 +1,90 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        background-color: #8aa7c4b9;
+        color: #333;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    section {
+        background-color: #ffffff;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        width: 100%;
+    }
+    h1{
+        margin-bottom: 50px;
+        font-size: 3em;
+        color: #ffffff;
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+        color: #1a73e8;
+    }
+
+    #formulario {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    input[type="number"] {
+        padding: 0.75rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: border 0.3s;
+    }
+
+    input[type="number"]:focus {
+        outline: none;
+        border-color: #1a73e8;
+    }
+
+    button {
+        padding: 0.75rem;
+        background-color: #1a73e8;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #1666c1;
+    }
+
+    #media {
+        font-weight: bold;
+        color: #444;
+    }
+
+    #aprovacao {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    #aprovacao.aprovado {
+        color: #2e7d32;
+    }
+
+    #aprovacao.reprovado {
+        color: #d32f2f;
+    }
